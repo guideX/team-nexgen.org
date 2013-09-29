@@ -55,9 +55,8 @@
   <script src="<?php print $base_root . $base_path . path_to_theme() ?>/js/respond.min.js"></script>
   <![endif]-->
   <?php endif; ?>
-  
+  <script type="text/javascript" src="/scripts/juicebox.js"></script>
   <?php print $scripts; ?>
-
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">

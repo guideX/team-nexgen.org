@@ -557,3 +557,17 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 #block-forum-new .block-configure {
   display: none;
 }
+.more {
+  /*margin-left: 5px;*/
+}
+.software_body {
+  width: 75%;
+  float: left;
+  position: relative;
+}
+.software_logo {
+  width: 20%;
+  float: left;
+  position: relative;
+  margin-left: 5%;
+}

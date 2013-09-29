@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juiceboxgallery
+	galleryTitle="nexIRC v3.23"
+	debugMode="true"
+	splashDescription="IRC Client"
+>
+  <image imageURL="nirc323_1.jpg"
+	thumbURL="nirc323_1_t.jpg"
+	linkURL="nirc323_1.jpg"
+	linkTarget="_blank">
+	<title>Main Window</title>
+	<caption><![CDATA[The main window is where all of the channel, status, queries and notices are.]]></caption>
+  </image>
+  <image imageURL="nirc323_2.jpg"
+	thumbURL="nirc323_2_t.jpg"
+	linkURL="nirc323_2.jpg"
+	linkTarget="_blank">
+	<title>Channel Folder</title>
+	<caption><![CDATA[The channel folder is a convenient way to remember your favorite channels.]]></caption>
+  </image>
+  <image imageURL="nirc323_3.jpg"
+	thumbURL="nirc323_3_t.jpg"
+	linkURL="nirc323_3.jpg"
+	linkTarget="_blank">
+	<title>Nickserv</title>
+	<caption><![CDATA[Login automatically with Nickserv.]]></caption>
+  </image>
+  <image imageURL="nirc323_4.jpg"
+	thumbURL="nirc323_4_t.jpg"
+	linkURL="nirc323_4.jpg"
+	linkTarget="_blank">
+	<title>Server Settings</title>
+	<caption><![CDATA[Server Settings.]]></caption>
+  </image>
+  <image imageURL="nirc323_5.jpg"
+	thumbURL="nirc323_5_t.jpg"
+	linkURL="nirc323_5.jpg"
+	linkTarget="_blank">
+	<title>General Settings</title>
+	<caption><![CDATA[General Settings]]></caption>
+  </image>
+  <image imageURL="nirc323_6.jpg"
+	thumbURL="nirc323_6_t.jpg"
+	linkURL="nirc323_6.jpg"
+	linkTarget="_blank">
+	<title>Text Settings</title>
+	<caption><![CDATA[With nexIRC, you can configure which IRC protocols to support, and can configure the protocol manually.]]></caption>
+  </image>
+  <image imageURL="nirc323_7.jpg"
+	thumbURL="nirc323_7_t.jpg"
+	linkURL="nirc323_7.jpg"
+	linkTarget="_blank">
+	<title>About Screen</title>
+	<caption><![CDATA[About screen.]]></caption>
+  </image>
+  <image imageURL="nirc323_8.jpg"
+	thumbURL="nirc323_8_t.jpg"
+	linkURL="nirc323_8.jpg"
+	linkTarget="_blank">
+	<title>List Channels</title>
+	<caption><![CDATA[nexIRC remembers your channel list for quicker loading.]]></caption>
+  </image>
+  <image imageURL="nirc323_9.jpg"
+	thumbURL="nirc323_9_t.jpg"
+	linkURL="nirc323_9.jpg"
+	linkTarget="_blank">
+	<title>Channel Window</title>
+	<caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>

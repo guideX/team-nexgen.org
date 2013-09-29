@@ -287,7 +287,28 @@
 </div><!-- EOF: #footer -->
 <script>
 	jQuery(document).ready(function() {
+		//alert("HEY");
+		jQuery('div[style*=background-image:url(jb001.png)]').each(function() {
+			alert("HEY");
+		});
+		//if ($('div').attr('style').indexOf('jb001.png') !== -1){
+			//alert('It has the background image');
+		//}
+		var n = 0;
+		jQuery(".view-software .product").each(function() {
+		  n++;
+		  if(n == 1) {
+			jQuery(this).addClass("alpha");
+		  }
+		  if(n == 3) {
+		    jQuery(this).addClass("omega");
+			n = 0;
+		  }
+		});
+		jQuery(".software_logo img").addClass("masked");
 		jQuery(".view-software .product img").addClass("masked");
+		jQuery(".view-id-mirc_scripts .product img").addClass("masked");
 		jQuery(".addbutton a").addClass("more");
+		jQuery(".addbutton a:contains('View')" ).css( "margin-left", "10px" );
 	});
 </script>
