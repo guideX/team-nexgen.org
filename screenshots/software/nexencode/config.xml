@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juiceboxgallery
+	galleryTitle="nexENCODE Studio v4.29"
+	debugMode="true"
+	splashDescription="MP3 Encoder/CD Ripper"
+>
+  <image imageURL="ns429_1.png"
+	thumbURL="ns429_1t.png"
+	linkURL="ns429_1.png"
+	linkTarget="_blank">
+	<title>Main Window and Playlist</title>
+	<caption><![CDATA[The main window is where all encoding operations take place. The playlist is for easy playback and conversion access.]]></caption>
+  </image>
+</juiceboxgallery>

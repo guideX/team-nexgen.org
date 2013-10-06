@@ -1,18 +1,3 @@
-
-/**
- * Juicebox 1.3.2 Classic Theme
- *
- * Copyright (c) 2013 Juicebox Inc. All rights reserved.
- * http://www.juicebox.net
- *
- * BY USING THIS SOFTWARE, YOU AGREE TO THE JUICEBOX TERMS OF USE
- * http://www.juicebox.net/terms
- *
- * Support and Documentation: http://www.juicebox.net/support
- *
- * Build Time: 05/30/2013 10:15:22 PM
- */
-
 .juicebox-gallery
 {
 	outline: none;
@@ -176,7 +161,7 @@ div.jb-dt-main-frame {
 	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);
 	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);
-	border-color: White;
+	border-color: #1487d4;
 }
 .jb-dt-main-frame img
 {
@@ -212,12 +197,12 @@ div.jb-area-caption
 }
 .jb-cap-frame .jb-caption {
 	background-color: rgba(0, 0, 0, .5);
-	color: white;
+	color: #1487d4;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 .jb-cap-frame .jbac-number {
 	float: right;
-	color: #ccc;
+	color: #1487d4;
 	width: 72px;
 	text-align: right;
 	font-size: 13px;
@@ -238,7 +223,7 @@ div.jb-area-caption
 	cursor:default;
 }
 .jb-caption a {
-	color: white;
+	color: #1487d4;
 }
 .jb-flag-msie-bf9 .jb-cap-frame .jb-caption {
 	background-color:Black;
@@ -263,7 +248,7 @@ p.jb-cap-content {
 	position: absolute;
 	top: 10px;
 	padding: 5px 10px 5px 10px;
-	color: #FFFFFF;
+	color: #1487d4;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.5), 0 0 5px rgba(0,0,0,0.2);
 	font-size: 18px;
 	outline: none;
@@ -543,7 +528,7 @@ a.jb-go-back-icon
 	width:100%;
 }
 .jb-splash-info p {
-	color: white;
+	color: #1487d4;
 	font-size: 17px;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 	line-height: 25px;
@@ -563,7 +548,7 @@ p.jb-splash-cnt
 }
 /* Splash page title, add important in order to avoid collisions with Word Press*/
 .jb-splash-info h3 {
-	color: white !important;
+	color: #1487d4 !important;
 	padding: 20px !important;
 	margin: 0 !important;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
@@ -571,7 +556,7 @@ p.jb-splash-cnt
 }
 /* Splash 'View Gallery' Text*/
 a.jb-splash-view-glry {
-	color: White;
+	color: #1487d4;
 	font-size: 22px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -607,7 +592,7 @@ div.jb-splash
 
 /* gallery messages */
 .jb-error-message {
-	color: White;
+	color: #1487d4;
 	padding: 8px 10px;
 	width: 60%;
 	margin-left: auto;
@@ -618,12 +603,12 @@ div.jb-splash
 }
 
 .jb-error-message a{
-	color: White;
+	color: #1487d4;
 }
 
 /* Autoplay message */
 .juicebox-gallery  .jb-status-message{
-	color: White;
+	color: #1487d4;
 	padding: 8px 10px 12px 8px;
 	width: 60%;
 	margin-left: auto;
@@ -667,7 +652,6 @@ div.jb-status-loading {
 }
 .jb-badge
 {
-	background: url('img/jb001.png') no-repeat center;
 }
 
 
@@ -881,11 +865,11 @@ a.jb-go-back-icon:before
 
 .jcbx-glry-classic {
 	background: #222222;
-	color: white;
+	color: #1487d4;
 	clear: both;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	height: 500px;
-	color: #FFF;
+	color: #1487d4;
 	position: relative;
 	overflow: hidden;
 	display:block !important;

@@ -85,7 +85,7 @@
                 <em>Team Nexgen</em><br/>
                 <br/>
                 Unlike other scripts we use our own DLL's, sounds, & graphics. Packed full of features any user will need to maintain a channel or just simple chat. Unique features such a operator central, direct update, webcam viewer, mp3 play, and soo much more!
-                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="/content/scripts">Scripts</a></div>
+                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="/mircscripts">View Details</a></div>
                 <!--EOF:slider-item content-->
                 </div>
             </div>
@@ -106,7 +106,7 @@
                 <em>Team Nexgen</em><br/>
                 <br/>
                 nexIRC is a fully featured IRC client which is compatibile with 17 different IRC Daemons, can support multiple query/servers/channels, has full dcc protocol (send/get, chat), and much more.
-                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="/content/software">Software</a></div>
+                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="/software">Software</a></div>
                 <!--EOF:slider-item content-->
 				</div>
             </div>
@@ -126,7 +126,7 @@
                 <em>Team Nexgen</em><br/>
                 <br/>
                 NexENCODE will rip cdaudio to mp3's, search all your hard drives for mp3's, rip cdaudio to wav's, convert wav's to mp3's (encode), add 8 different effects to wave audio files, convert mp3's to wav's (decode), and a lot more.
-                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="/content/software">Software</a></div>
+                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="/software">Software</a></div>
                 <!--EOF:slider-item content-->
                 </div>
             </div>
@@ -279,7 +279,7 @@
     <!-- #credits -->   
     <div id="credits" class="container_12 clearfix">
         <div class="grid_12">
-        <p>Copyright 2013 <a href="http://www.team-nexgen.org/">Team Nexgen</a></p>
+        <p><a href="http://www.team-nexgen.org/">Team Nexgen</a> | <a href="http://www.skywirenews.com/">SkyWireNews</a></p>
         </div>
     </div>
     <!-- EOF: #credits -->
@@ -287,13 +287,6 @@
 </div><!-- EOF: #footer -->
 <script>
 	jQuery(document).ready(function() {
-		//alert("HEY");
-		jQuery('div[style*=background-image:url(jb001.png)]').each(function() {
-			alert("HEY");
-		});
-		//if ($('div').attr('style').indexOf('jb001.png') !== -1){
-			//alert('It has the background image');
-		//}
 		var n = 0;
 		jQuery(".view-software .product").each(function() {
 		  n++;
@@ -310,5 +303,6 @@
 		jQuery(".view-id-mirc_scripts .product img").addClass("masked");
 		jQuery(".addbutton a").addClass("more");
 		jQuery(".addbutton a:contains('View')" ).css( "margin-left", "10px" );
+		jQuery("#software_screenshots").css("background-color", "#FFFFFF");
 	});
 </script>
