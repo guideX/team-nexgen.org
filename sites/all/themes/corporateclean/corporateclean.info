@@ -13,6 +13,7 @@ regions[navigation] = Navigation
 regions[search_area] = Search area
 regions[highlighted] = Highlighted
 regions[content] = Content
+regions[facebook_comments_area] = Facebook Comments Area
 regions[sidebar_first] = First sidebar
 regions[sidebar_second] = Second sidebar
 regions[banner] = Banner

@@ -22,16 +22,19 @@
 </div>
 <div id="software_screenshots">
   <script>
-    var value = '<?php print($field_screenshotspath[0]['value']); ?>';
-    if(value !== 'undefined' && value != '') {
-      new juicebox({
-        backgroundColor:'rgba(0,0,0,.9)',
-        xbackgroundColor:'fff',
-        containerid:'software_screenshots',
-        themeUrl:'../jbcore/classic/theme.css',
-        baseURL: value
-      });
-    }
+    <?php if(count($field_screenshotspath) != 0) { ?>
+	  var value = '<?php print($field_screenshotspath[0]['value']); ?>';
+      if(value !== 'undefined' && value != '') {
+        new juicebox({
+          backgroundColor:'rgba(0,0,0,.9)',
+          xbackgroundColor:'fff',
+          containerid:'software_screenshots',
+          themeUrl:'../jbcore/classic/theme.css',
+          baseURL: value
+        });
+      }
+	<?php } ?>
   </script>
 </div>
-<div class="facebook_comments"><?php //print render($page['facebook_comments']); ?></div>
+&nbsp;<br />
+&nbsp;<br />

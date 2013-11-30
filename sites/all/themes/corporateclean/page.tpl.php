@@ -217,6 +217,7 @@
             <?php if ($tabs): ?><?php print render($tabs); ?><?php endif; ?>
             
             <?php print render($page['content']); ?>
+			<?php print render($page['facebook_comments_area']); ?>
             
             <?php print $feed_icons; ?>
             
