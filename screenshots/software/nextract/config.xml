@@ -32,13 +32,6 @@
 	<title>Main Window 4</title>
 	<caption><![CDATA[...]]></caption>
   </image>
-  <image imageURL="5.gif"
-	thumbURL="5_t.png"
-	linkURL="5_gif"
-	linkTarget="_blank">
-	<title>Main Window 5</title>
-	<caption><![CDATA[...]]></caption>
-  </image>
   <image imageURL="6.gif"
 	thumbURL="6_t.png"
 	linkURL="6_gif"
