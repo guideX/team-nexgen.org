@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juiceboxgallery
+	galleryTitle="Nexgen Missile Command"
+	debugMode="true"
+	splashDescription="Nexgen Missile Command"
+>
+  <image imageURL="missilecommand1.png"
+	thumbURL="missilecommand1_t.png"
+	linkURL="missilecommand1.png"
+	linkTarget="_blank">
+	<title>Main Window</title>
+	<caption><![CDATA[The main window is where the Missile Command game is played.]]></caption>
+  </image>
+</juiceboxgallery>

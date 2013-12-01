@@ -9,6 +9,7 @@
 	<b>Version: </b><?php print $field_version[0]['value']; ?><br />
 	<b>Release Date: </b><?php print $field_releasedate[0]['value']; ?><br />
 	<b>Author: </b><?php print $field_software_author[0]['value']; ?><br />
+	<b>Source Code: </b><a href="<?php print $field_sourceurl[0]['value']; ?>">Click Here</a><br />
   </div>
   <div class="software_logo">
     <?php

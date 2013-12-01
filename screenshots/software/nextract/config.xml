@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juiceboxgallery
+	galleryTitle="nExtract"
+	debugMode="true"
+	splashDescription="nExtract"
+>
+  <image imageURL="1.gif"
+	thumbURL="1_t.png"
+	linkURL="1.gif"
+	linkTarget="_blank">
+	<title>Main Window 1</title>
+	<caption><![CDATA[The main window of nExtract when you first open the program.]]></caption>
+  </image>
+  <image imageURL="2.gif"
+	thumbURL="2_t.png"
+	linkURL="2.gif"
+	linkTarget="_blank">
+	<title>Main Window 2</title>
+	<caption><![CDATA[After you add some files.]]></caption>
+  </image>
+  <image imageURL="3.gif"
+	thumbURL="3_t.png"
+	linkURL="3_gif"
+	linkTarget="_blank">
+	<title>Main Window 3</title>
+	<caption><![CDATA[The configure tab.]]></caption>
+  </image>
+  <image imageURL="4.gif"
+	thumbURL="4_t.png"
+	linkURL="4_gif"
+	linkTarget="_blank">
+	<title>Main Window 4</title>
+	<caption><![CDATA[...]]></caption>
+  </image>
+  <image imageURL="5.gif"
+	thumbURL="5_t.png"
+	linkURL="5_gif"
+	linkTarget="_blank">
+	<title>Main Window 5</title>
+	<caption><![CDATA[...]]></caption>
+  </image>
+  <image imageURL="6.gif"
+	thumbURL="6_t.png"
+	linkURL="6_gif"
+	linkTarget="_blank">
+	<title>Main Window 6</title>
+	<caption><![CDATA[...]]></caption>
+  </image>
+  <image imageURL="7.gif"
+	thumbURL="7_t.png"
+	linkURL="7_gif"
+	linkTarget="_blank">
+	<title>Main Window 7</title>
+	<caption><![CDATA[...]]></caption>
+  </image>
+  <image imageURL="8.gif"
+	thumbURL="8_t.png"
+	linkURL="8_gif"
+	linkTarget="_blank">
+	<title>Main Window 8</title>
+	<caption><![CDATA[...]]></caption>
+  </image>
+  <image imageURL="9.gif"
+	thumbURL="9_t.png"
+	linkURL="9_gif"
+	linkTarget="_blank">
+	<title>Main Window 9</title>
+	<caption><![CDATA[...]]></caption>
+  </image>
+</juiceboxgallery>

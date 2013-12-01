@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juiceboxgallery
+	galleryTitle="nexIRC v2.29"
+	debugMode="true"
+	splashDescription="IRC Client">
+  <image imageURL="nirc429_1.gif"
+	thumbURL="nirc429_1t.gif"
+	linkURL="nirc429_1.gif"
+	linkTarget="_blank">
+	<title>Main Window</title>
+	<caption><![CDATA[The main windows of nexIRC.]]></caption>
+  </image>
+  <image imageURL="nirc429_2.gif"
+	thumbURL="nirc429_2t.gif"
+	linkURL="nirc429_2.gif"
+	linkTarget="_blank">
+	<title>Main Window</title>
+	<caption><![CDATA[With a channel window open.]]></caption>
+  </image>
+  <image imageURL="nirc429_3.gif"
+	thumbURL="nirc429_3t.gif"
+	linkURL="nirc429_3.gif"
+	linkTarget="_blank">
+	<title>Main Window</title>
+	<caption><![CDATA[The menu.]]></caption>
+  </image>
+  <image imageURL="nirc429_4.gif"
+	thumbURL="nirc429_4t.gif"
+	linkURL="nirc429_4.gif"
+	linkTarget="_blank">
+	<title>Main Window</title>
+	<caption><![CDATA[Customize Window.]]></caption>
+  </image>
+</juiceboxgallery>

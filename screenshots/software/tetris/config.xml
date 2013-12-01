@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juiceboxgallery
+	galleryTitle="Nexgen Tetris"
+	debugMode="true"
+	splashDescription="Tetris"
+>
+  <image imageURL="tetris1.png"
+	thumbURL="tetris1_t.png"
+	linkURL="tetris1.png"
+	linkTarget="_blank">
+	<title>Main Window</title>
+	<caption><![CDATA[The main window is where the Tetris game is played.]]></caption>
+  </image>
+</juiceboxgallery>

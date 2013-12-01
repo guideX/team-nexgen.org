@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juiceboxgallery
+	galleryTitle="Nexgen Pacman"
+	debugMode="true"
+	splashDescription="Pacman"
+>
+  <image imageURL="pacman1.png"
+	thumbURL="pacman1_t.png"
+	linkURL="pacman1.png"
+	linkTarget="_blank">
+	<title>Main Window</title>
+	<caption><![CDATA[The main window is where the Pacman game is played.]]></caption>
+  </image>
+</juiceboxgallery>
