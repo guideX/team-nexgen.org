@@ -68,96 +68,7 @@
     
     <?php if ($is_front): ?>
     
-    <!-- #slideshow -->
-    <div id="slideshow">
-    
-        <!--slider-item-->
-        <div class="slider-item">
-            <div class="content container_12">
-            	<div class="grid_12">
-                
-                <!--slider-item content-->
-                <div style="float:left; padding:0 30px 0 0;">
-                <img class="masked" src="/sites/all/themes/corporateclean/acidmax.gif" style="width: 314px; height: 219px;" />
-                </div>
-                <h2>Nexgen Acidmax</h2>
-                <strong>Scripts</strong><br/>
-                <em>Team Nexgen</em><br/>
-                <br/>
-                Unlike other scripts we use our own DLL's, sounds, & graphics. Packed full of features any user will need to maintain a channel or just simple chat. Unique features such a operator central, direct update, webcam viewer, mp3 play, and soo much more!
-                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="/mircscripts">View Details</a></div>
-                <!--EOF:slider-item content-->
-                </div>
-            </div>
-        </div>
-        <!--EOF:slider-item-->
-        
-        <!--slider-item-->
-        <div class="slider-item">
-            <div class="content container_12">
-            	<div class="grid_12">
-                
-                <!--slider-item content-->
-                <div style="float:right; padding:0 0 0 30px;">
-                <img class="masked" src="/sites/all/themes/corporateclean/nirc.gif" style="width: 314px; height: 219px;" />
-                </div>
-                <h2>nexIRC</h2>
-                <strong>Scripts</strong><br/>
-                <em>Team Nexgen</em><br/>
-                <br/>
-                nexIRC is a fully featured IRC client which is compatibile with 17 different IRC Daemons, can support multiple query/servers/channels, has full dcc protocol (send/get, chat), and much more.
-                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="/software">Software</a></div>
-                <!--EOF:slider-item content-->
-				</div>
-            </div>
-        </div>
-        <!--EOF:slider-item-->
-        
-        <div class="slider-item">
-            <div class="content container_12">
-            	<div class="grid_12">
-                
-                <!--slider-item content-->
-                <div style="float:left; padding:0 30px 0 0;">
-                <img class="masked" src="/sites/all/themes/corporateclean/nexencode.png" style="width: 314px; height: 219px;" />
-                </div>
-                <h2>nexENCODE Studio</h2>
-                <strong>Software</strong><br/>
-                <em>Team Nexgen</em><br/>
-                <br/>
-                NexENCODE will rip cdaudio to mp3's, search all your hard drives for mp3's, rip cdaudio to wav's, convert wav's to mp3's (encode), add 8 different effects to wave audio files, convert mp3's to wav's (decode), and a lot more.
-                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="/software">Software</a></div>
-                <!--EOF:slider-item content-->
-                </div>
-            </div>
-        </div>
-        <!--EOF:slider-item-->
-        <!--slider-item-->
-        <!--
-        <div class="slider-item">
-            <div class="content container_12">
-            	<div class="grid_12">
-                
-                <img class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-3.jpg"/>
-				</div>
-            </div>
-        </div>
-		-->
-        <!--EOF:slider-item-->
-    </div>
-    <!-- EOF: #slideshow -->
-    
-    <!-- #slider-controls-wrapper -->
-    <div id="slider-controls-wrapper">
-        <div id="slider-controls" class="container_12">
-            <ul id="slider-navigation">
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- EOF: #slider-controls-wrapper -->
+	
     
     <?php endif; ?>
     
@@ -307,3 +218,4 @@
 		jQuery("#software_screenshots").css("background-color", "#FFFFFF");
 	});
 </script>
+<script type="text/javascript" src="/scripts/jquery.nivo.slider.js"></script>

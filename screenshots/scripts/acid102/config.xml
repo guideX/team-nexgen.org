@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juiceboxgallery
+	galleryTitle="Nexgen Acidmax v1.02"
+	debugMode="true"
+	splashDescription="Nexgen Acidmax v1.02"
+>
+  <image imageURL="1.png"
+	thumbURL="1t.png"
+	linkURL="1.png"
+	linkTarget="_blank">
+	<title>Main Window</title>
+	<caption><![CDATA[Main Window]]></caption>
+  </image>
+</juiceboxgallery>

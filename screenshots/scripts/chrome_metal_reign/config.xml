@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juiceboxgallery
+	galleryTitle="Nexgen Chrome Metal Reign Edition"
+	debugMode="true"
+	splashDescription="Nexgen Chrome Metal Reign Edition"
+>
+  <image imageURL="1.png"
+	thumbURL="1t.png"
+	linkURL="1.png"
+	linkTarget="_blank">
+	<title>Main Window</title>
+	<caption><![CDATA[Main Window]]></caption>
+  </image>
+  <image imageURL="2.png"
+	thumbURL="2t.png"
+	linkURL="2.png"
+	linkTarget="_blank">
+	<title>Channel Window</title>
+	<caption><![CDATA[Channel Window]]></caption>
+  </image>
+</juiceboxgallery>
