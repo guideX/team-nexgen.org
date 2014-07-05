@@ -40,8 +40,8 @@
  * @see template_preprocess_html()
  * @see template_process()
  */
-?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
-  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+?><!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" version="XHTML+RDFa 1.0" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces; ?>>
 
 <head profile="<?php print $grddl_profile; ?>">
@@ -55,7 +55,14 @@
   <script src="<?php print $base_root . $base_path . path_to_theme() ?>/js/respond.min.js"></script>
   <![endif]-->
   <?php endif; ?>
+  <link rel="stylesheet" href="/sites/all/themes/corporateclean/nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/sites/all/themes/corporateclean/nivo-slider/themes/dark/light.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/sites/all/themes/corporateclean/nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/sites/all/themes/corporateclean/nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="/sites/all/themes/corporateclean/nivo-slider/nivo-slider.css" media="screen" />
+
   <script type="text/javascript" src="/scripts/juicebox.js"></script>
+  <script type="text/javascript" src="/sites/all/themes/corporateclean/nivo-slider/jquery.nivo.slider.js"></script>
   <?php print $scripts; ?>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>

@@ -1,28 +1,28 @@
-<!-- #header -->
+<?php
+	$front_page = "false";
+	if(drupal_is_front_page()) { 
+		$front_page = "true";
+	}
+?>
 <div id="header">
-	<!-- #header-inside -->
     <div id="header-inside" class="container_12 clearfix">
-    	<!-- #header-inside-left -->
         <div id="header-inside-left" class="grid_8">
-            
             <?php if ($logo): ?>
-            <a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
+				<a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
             <?php endif; ?>
-     
             <?php if ($site_name || $site_slogan): ?>
-            <div class="clearfix">
-            <!--
-            <?php if ($site_name): ?>
-			<span id="site-name"><a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></span>
+				<div class="clearfix">
+					<!--
+					<?php if ($site_name): ?>
+						<span id="site-name"><a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></span>
+					<?php endif; ?>
+					<?php if ($site_slogan): ?>
+						<span id="slogan"><?php print $site_slogan; ?></span>
+					<?php endif; ?>
+					-->
+				</div>
             <?php endif; ?>
-            <?php if ($site_slogan): ?>
-            <span id="slogan"><?php print $site_slogan; ?></span>
-            <?php endif; ?>
-			-->
-            </div>
-            <?php endif; ?>
-            
-        </div><!-- EOF: #header-inside-left -->
+        </div>
         
         <!-- #header-inside-right -->    
         <div id="header-inside-right" class="grid_4">
@@ -58,30 +58,10 @@
     </div><!-- EOF: #header-menu-inside -->
 
 </div><!-- EOF: #header-menu -->
-
-<!-- #banner -->
-<div id="banner">
-
-	<?php print render($page['banner']); ?>
-	
-    <?php if (theme_get_setting('slideshow_display','corporateclean')): ?>
-    
-    <?php if ($is_front): ?>
-    
-	
-    
-    <?php endif; ?>
-    
-	<?php endif; ?>  
-
-</div><!-- EOF: #banner -->
-
-
 <!-- #content -->
 <div id="content">
 	<!-- #content-inside -->
     <div id="content-inside" class="container_12 clearfix">
-    
         <?php if ($page['sidebar_first']) :?>
         <!-- #sidebar-first -->
         <div id="sidebar-first" class="grid_4">
@@ -96,9 +76,7 @@
 		<?php } else { ?>
         <div id="main" class="grid_12">    
         <?php } ?>
-            
             <?php if (theme_get_setting('breadcrumb_display','corporateclean')): print $breadcrumb; endif; ?>
-            
             <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
        
             <?php if ($messages): ?>
@@ -120,16 +98,34 @@
             <?php endif; ?>
             
 			<?php print render($title_prefix); ?>
-            <?php if ($title): ?>
-            <h1><?php print $title ?></h1>
+			<?php if (!$front_page) { ?>
+			<?php if ($title): ?>
+			<h1><?php print $title ?></h1>
             <?php endif; ?>
+			<?php } ?>
             <?php print render($title_suffix); ?>
             
             <?php if ($tabs): ?><?php print render($tabs); ?><?php endif; ?>
             
+			<?php if ($front_page): ?>
+				<div>
+					<div class="grid_12 contextual-links-region">
+						<?php print render($page['banner']); ?>
+						<?php if (theme_get_setting('slideshow_display','corporateclean')): ?>
+							<div class="slider-wrapper theme-default">
+								<div id="slider" class="nivoSlider">
+									<a href='/content/nexirc'><img src='/sites/all/themes/corporateclean/images/nexircnew.jpg' data-thumb='/sites/all/themes/corporateclean/images/nexirc.jpg' alt='' title='nexIRC v3.28 is now available' /></a>
+									<a href='/content/nexirc-229'><img src='/sites/all/themes/corporateclean/images/nirc229slider.jpg' data-thumb='/sites/all/themes/corporateclean/images/nirc229slider.jpg' alt='' title='nexIRC v2.29' /></a>
+									<a href='/content/nexgen-acidmax'><img src='/sites/all/themes/corporateclean/images/acid.jpg' data-thumb='/sites/all/themes/corporateclean/images/acid.jpg' alt='' title='Nexgen Acidmax' /></a>
+								</div>
+							</div>
+						<?php endif; ?>  
+					</div>
+				</div>
+			<?php endif; ?>
+
             <?php print render($page['content']); ?>
-			<?php print render($page['facebook_comments_area']); ?>
-            
+			<?php print render($page['facebook_comments_area']); ?>            
             <?php print $feed_icons; ?>
             
         </div><!-- EOF: #main -->
@@ -197,7 +193,12 @@
     <!-- EOF: #credits -->
 
 </div><!-- EOF: #footer -->
-<script>
+<script><?php
+	if($front_page == "true") { ?>
+		$(window).load(function() {
+			$('#slider').nivoSlider();
+		});<?php
+	} ?>
 	jQuery(document).ready(function() {
 		var n = 0;
 		jQuery(".view-software .product").each(function() {
@@ -215,7 +216,5 @@
 		jQuery(".view-id-mirc_scripts .product img").addClass("masked");
 		jQuery(".addbutton a").addClass("more");
 		jQuery(".addbutton a:contains('View')" ).css( "margin-left", "10px" );
-		jQuery("#software_screenshots").css("background-color", "#FFFFFF");
 	});
 </script>
-<script type="text/javascript" src="/scripts/jquery.nivo.slider.js"></script>

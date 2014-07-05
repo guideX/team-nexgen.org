@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juiceboxgallery
+	galleryTitle="Anomalocaris"
+	debugMode="true"
+	splashDescription="Anomalocaris"
+>
+  <image imageURL="anomalocaris102_1.jpg"
+	thumbURL="anomalocaris102_1t.jpg"
+	linkURL="anomalocaris102_1.jpg"
+	linkTarget="_blank">
+	<title>Anomalocaris at bing.com</title>
+	<caption><![CDATA[The main window.]]></caption>
+  </image>
+  <image imageURL="anomalocaris102_2.jpg"
+	thumbURL="anomalocaris102_2t.jpg"
+	linkURL="anomalocaris102_2.jpg"
+	linkTarget="_blank">
+	<title>Anomalocaris at google.com</title>
+	<caption><![CDATA[The main window.]]></caption>
+  </image>
+  <image imageURL="anomalocaris102_3.jpg"
+	thumbURL="anomalocaris102_3t.jpg"
+	linkURL="anomalocaris102_3.jpg"
+	linkTarget="_blank">
+	<title>About Screen</title>
+	<caption><![CDATA[The About window.]]></caption>
+  </image>
+  <image imageURL="anomalocaris102_4.jpg"
+	thumbURL="anomalocaris102_4t.jpg"
+	linkURL="anomalocaris102_4.jpg"
+	linkTarget="_blank">
+	<title>With the Settings dialog open</title>
+	<caption><![CDATA[The Settings window.]]></caption>
+  </image>
+</juiceboxgallery>

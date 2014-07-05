@@ -1,42 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <juiceboxgallery
-	galleryTitle="nexIRC v3.24"
+	galleryTitle="nexIRC v3.28"
 	debugMode="true"
 	splashDescription="IRC Client"
 >
-  <image imageURL="1.png"
-	thumbURL="1_t.png"
-	linkURL="1.png"
+  <image imageURL="nirc328_1.jpg"
+	thumbURL="nirc328_1t.jpg"
+	linkURL="nirc328_1.jpg"
 	linkTarget="_blank">
 	<title>Main Window</title>
-	<caption><![CDATA[The main windows of nexIRC.]]></caption>
+	<caption><![CDATA[The main window of nexIRC with the channel #defocus open.]]></caption>
   </image>
-  <image imageURL="2.png"
-	thumbURL="2_t.png"
-	linkURL="2.png"
+  <image imageURL="nirc328_2.jpg"
+	thumbURL="nirc328_2t.jpg"
+	linkURL="nirc328_2.jpg"
 	linkTarget="_blank">
-	<title>#defocus</title>
-	<caption><![CDATA[Chatting in the #defocus channel on Freenode.]]></caption>
+	<title>Recent Connections Menu</title>
+	<caption><![CDATA[The main window of nexIRC with the recent connections menu open.]]></caption>
   </image>
-  <image imageURL="3.png"
-	thumbURL="3_t.png"
-	linkURL="3.png"
+  <image imageURL="nirc328_3.jpg"
+	thumbURL="nirc328_3t.jpg"
+	linkURL="nirc328_3.jpg"
 	linkTarget="_blank">
 	<title>Channel Folder</title>
 	<caption><![CDATA[The channel folder.]]></caption>
   </image>
-  <image imageURL="4.png"
-	thumbURL="4_t.png"
-	linkURL="4.png"
+  <image imageURL="nirc328_4.jpg"
+	thumbURL="nirc328_4t.jpg"
+	linkURL="nirc328_4.jpg"
 	linkTarget="_blank">
-	<title>Network and Server Settings</title>
-	<caption><![CDATA[Configure dialog shown, with Network and Server settings.]]></caption>
+	<title>About Screen</title>
+	<caption><![CDATA[The main window of nexIRC with the about screen open.]]></caption>
   </image>
-  <image imageURL="5.png"
-	thumbURL="5_t.png"
-	linkURL="5.png"
+  <image imageURL="nirc328_5.jpg"
+	thumbURL="nirc328_5t.jpg"
+	linkURL="nirc328_5.jpg"
 	linkTarget="_blank">
-	<title>User settings dialog</title>
-	<caption><![CDATA[Configure dialog shown, with user settings.]]></caption>
+	<title>Nickserv Login</title>
+	<caption><![CDATA[The main window of nexIRC with the Nickserv login window open.]]></caption>
+  </image>
+  <image imageURL="nirc328_6.jpg"
+	thumbURL="nirc328_6t.jpg"
+	linkURL="nirc328_6.jpg"
+	linkTarget="_blank">
+	<title>The Channel List</title>
+	<caption><![CDATA[The main window of nexIRC with the channel list open.]]></caption>
+  </image>
+  <image imageURL="nirc328_7.jpg"
+	thumbURL="nirc328_7t.jpg"
+	linkURL="nirc328_7.jpg"
+	linkTarget="_blank">
+	<title>Server Configuration</title>
+	<caption><![CDATA[The main window of nexIRC with the customize window open on the servers tab.]]></caption>
+  </image>
+  <image imageURL="nirc328_8.jpg"
+	thumbURL="nirc328_8t.jpg"
+	linkURL="nirc328_8.jpg"
+	linkTarget="_blank">
+	<title>User Configuration</title>
+	<caption><![CDATA[The main window of nexIRC with the customize window open on the user configuration tab.]]></caption>
+  </image>
+  <image imageURL="nirc328_9.jpg"
+	thumbURL="nirc328_9t.jpg"
+	linkURL="nirc328_9.jpg"
+	linkTarget="_blank">
+	<title>Interface Settings</title>
+	<caption><![CDATA[The main window of nexIRC with the customize window open on the Interface Settings tab.]]></caption>
+  </image>
+  <image imageURL="nirc328_10.jpg"
+	thumbURL="nirc328_10t.jpg"
+	linkURL="nirc328_10.jpg"
+	linkTarget="_blank">
+	<title>Text Settings</title>
+	<caption><![CDATA[The main window of nexIRC with the customize window open on the Text Settings tab.]]></caption>
+  </image>
+  <image imageURL="nirc328_11.jpg"
+	thumbURL="nirc328_11t.jpg"
+	linkURL="nirc328_11.jpg"
+	linkTarget="_blank">
+	<title>DCC Settings</title>
+	<caption><![CDATA[The main window of nexIRC with the customize window open on the Dcc Settings tab.]]></caption>
   </image>
 </juiceboxgallery>
